@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Licorice&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('img/3.jpg');
+    background-repeat:no-repeat;
+}
+li, a , button{
+    font-family: sans-serif;
+    color:#fff;
+    text-decoration: none;
+}
+.menu-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%; 
+}
+.logo{
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: -9%;
+}
+.menu-main .menu-list{
+    list-style: none;
+}
+.menu-main .menu-list li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.menu-main .menu-list li a{
+    transition: all 0.3s ease 0s;
+}
+.menu-main .menu-list li a:hover{
+    color: crimson;
+}
+.menu-main button{
+    padding: 10px 15px;
+    background:#fff;
+    border: none;
+    border-radius: 16px;
+    color: #ff3355;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+    position: absolute;
+    top: 4%;
+    right: 10%;
+}
+.menu-main button:hover{
+    background: #ff3355;
+    color: #fff;
+}
+.menu-main i{
+    margin-right: -8%;
+    color: #fff;
+    font-size: 2.2rem;
+    transition: all 0.3s ease 0s;
+}
+.menu-main i:hover{
+    color: #ff3355;
+}
+.text-img{
+    color: #fff;
+}
+.text-img .logo-text{
+    font-family: sans-serif;
+    font-size: .5rem;
+    padding: 3px  0  ;
+    margin-left: 5%;
+    margin-top: 10%;
+    background: red;
+    width: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+.text-img img{
+    width: 150px;
+    margin-left: 5%;
+    padding: 5px 0 0 0 ;
+}
+.text-img .iron-man{
+    position: absolute;
+    width: 250px;
+    left: 40%;
+    top: 20%;
+}
+.text-img .logo-text-3{
+    font-family: 'Licorice', cursive;
+    font-size: 2.5rem;
+    padding: 5px 10px;
+    margin-left: 10%;
+    margin-top: -2%;
+    color: red;
+}
+.text-img a {
+    text-decoration: none;
+}
+.text-img .text-about{
+    width: 400px;
+    margin-left: 5%;
+    font-size: .9rem;
+}
+.text-img a button{
+    background: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 16px;
+    color: red;
+    font-size: 1rem;
+    margin-left: 5%;
+    margin-top: 5%;
+    transition: all 0.3s ease 0s;
+}
+.text-img a button:hover{
+    background: #ff3355;
+    color: #fff;
+}
+.devices{
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+.devices i{
+    padding: 5px 15px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    font-size: 1.5rem;
+}
+.devices i:hover{
+    color: #ff3355;
+}
+.side-text{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    color: #fff;
+}
+.side-text h1{
+    border-bottom: 1.5px solid #ff3355;
+}
+.side-text #icon1{
+    position: absolute;
+    top: 300%;
+    right: 120%;
+    font-size: 2rem;
+    color: #ff3355;
+}
+.side-text #icon2{
+    position: absolute;
+    top: 650%;
+    right: 120%;
+    font-size: 2rem;
+    color: #ff3355;
+}
+.side-text #ign{
+    position: absolute;
+    color: #fff;
+    top: 175%;
+    right: 50%;
+}
+.side-text .circle{
+    position: absolute;
+    top: 5rem;
+    right: 14rem;
+    width: 50px;
+    height: 50px;
+    background: #ff3355;
+    border-radius: 50%;
+}
+.side-text .circle .mini-circle{
+    position: absolute;
+    top: 5.5%;
+    right:4.4%;
+    width: 45px;
+    height: 45px;
+    background: #000;
+    border-radius: 50%;  
+}
+.side-text .circle .mini-circle p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.side-text .fst{
+    position: absolute;
+    top: 6rem;
+    left: -3rem;
+    font-size: 1rem;
+
+}
+.side-text .circle-2{
+    position: absolute;
+    top: 13rem;
+    right: 16rem;
+    width: 50px;
+    height: 50px;
+    background: #ff3355;
+    border-radius: 50%;
+}
+.side-text .circle-2 .mini-circle-2{
+    position: absolute;
+    top: 5.5%;
+    right:4.4%;
+    width: 45px;
+    height: 45px;
+    background: #000;
+    border-radius: 50%;  
+}
+.side-text .circle-2 .mini-circle-2 p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.side-text .snd{
+    position: absolute;
+    top: 14rem;
+    left: -5rem;
+    font-size: 1rem;
+}
+.side-text .circle-3{
+    position: absolute;
+    top: 20rem;
+    right: 22rem;
+    width: 50px;
+    height: 50px;
+    background: #ff3355;
+    border-radius: 50%;
+}
+.side-text .circle-3 .mini-circle-3{
+    position: absolute;
+    top: 5.5%;
+    right:4.4%;
+    width: 45px;
+    height: 45px;
+    background: #000;
+    border-radius: 50%;  
+}
+.side-text .circle-3 .mini-circle-3 p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.side-text .tnd{
+    position: absolute;
+    top: 21rem;
+    left: -11rem;
+    font-size: 1rem;
+}
